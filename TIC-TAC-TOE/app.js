@@ -1,4 +1,3 @@
-// Simple, functional tic-tac-toe script
 const boxes = document.querySelectorAll('.box');
 const resetBtn = document.getElementById('reset');
 const status = document.getElementById('status');
@@ -86,5 +85,6 @@ if (resetBtn) {
     console.warn('Reset button not found');
 
 }
+
 
 

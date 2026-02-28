@@ -45,7 +45,7 @@ function endGame(result) {
     boxes.forEach(b => b.classList.add('disabled'));
 }
 
-// attach handlers
+
 boxes.forEach((box, idx) => {
     box.addEventListener('click', () => {
         if (gameOver) return;
@@ -86,4 +86,5 @@ if (resetBtn) {
     console.warn('Reset button not found');
 
 }
+
 

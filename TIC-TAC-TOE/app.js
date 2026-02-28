@@ -3,7 +3,7 @@ const boxes = document.querySelectorAll('.box');
 const resetBtn = document.getElementById('reset');
 const status = document.getElementById('status');
 
-let turnO = true; // true = O's turn; false = X's turn
+let turnO = true; 
 let gameOver = false;
 
 const winningCombos = [
@@ -84,4 +84,5 @@ if (resetBtn) {
     });
 } else {
     console.warn('Reset button not found');
+
 }

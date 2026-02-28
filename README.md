@@ -1,2 +1,2 @@
 # TIC-TAC-TOE
-Game
+Simple Game

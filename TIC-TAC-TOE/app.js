@@ -37,7 +37,7 @@ function endGame(result) {
     gameOver = true;
     if (result && result.winner) {
         updateStatus(result.winner + ' wins!');
-        // highlight winning boxes
+        
         result.combo.forEach(i => boxes[i].classList.add('win'));
     } else {
         updateStatus('Draw');
@@ -86,3 +86,4 @@ if (resetBtn) {
     console.warn('Reset button not found');
 
 }
+

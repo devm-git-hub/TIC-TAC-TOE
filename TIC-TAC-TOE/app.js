@@ -48,7 +48,7 @@ function endGame(result) {
 boxes.forEach((box, idx) => {
     box.addEventListener('click', () => {
         if (gameOver) return;
-        if (box.textContent.trim() !== '') return; // already filled
+        if (box.textContent.trim() !== '') return; 
 
         box.textContent = turnO ? 'O' : 'X';
         box.classList.add('played');
@@ -85,6 +85,7 @@ if (resetBtn) {
     console.warn('Reset button not found');
 
 }
+
 
 
 
